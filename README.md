@@ -14,3 +14,22 @@ Patient Hub Service
 * Debug is enabled in "dev" profile
 
 * 2 Test cases added
+
+## Endpoints:
+Please use relevant {Id} while making the request. 100 is given as example.
+
+* GetAllPatients - GET: http://localhost:8080/api/patients
+
+* CreatePatientRecord - POST: http://localhost:8080/api/patients
+
+  * payload: {
+
+  "id": 100,
+"firstName": "Hunders",
+"lastName": "hundredth",
+"email": "gconner@example.com"
+}
+
+* GetAPatientById - GET: http://localhost:8080/api/patients/100
+
+* DeletePatientById - DELETE: http://localhost:8080/api/patients/100
